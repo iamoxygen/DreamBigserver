@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: #fbfbfb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  background-size: contain;
+  width: 100%;
+}
+.row {
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+.col {
+  height: 100%;
+  width: 100%;
+}
+.sideNav {
+  position: relative;
+  background-color: #004687;
+  /* background-image: linear-gradient( 96.5deg,  rgba(39,103,187,1) 10.4%, rgba(16,72,144,1) 87.7% ); */
+}
+.sideNavBarTable {
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-left: 40px;
+  padding-inline-start: 0px;
+  grid-template-columns: 50px;
+  color: white;
+}
+.sideNavData {
+  text-decoration: none;
+  margin-left: 45px;
+  padding-top: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.sideNavDataLinks {
+  text-decoration: none;
+  margin-left: 10px;
+  padding-top: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.fa-chart-line{
+  margin-top: 4px;
+  margin-right:20px ;
+  font-size: 22px;
+}
+.fa-arrow-right-from-bracket{
+  margin-top: 4px;
+  margin-right:20px ;
+  font-size: 22px;
+}
+.dashboardLink{
+  color: #fff;
+  text-decoration: none;
+}
+.dataTable {
+  display: table;
+  border-collapse: collapse;
+  border-radius: 30px;
+  width: 80%;
+  margin-left: 20px;
+  border-spacing: 0;
+  border: none;
+}
+.dataBody {
+  width: 20%;
+}
+.tableHead {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  background-color: #124b94;
+  color: #fff;
+}
+.tableDataItems {
+  font-size: 18px;
+  border-spacing: 10px;
+  border-color:black ;
+}
+.headingUser {
+  margin-top: 0px;
+  margin-left: 20px;
+  font-size: 48px;
+}
+.addUser {
+  margin-left: 20px;
+  background-image: linear-gradient( 96.5deg,  rgba(39,103,187,1) 10.4%, rgba(16,72,144,1) 87.7% );
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 54px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.dot {
+  height: 150px;
+  width: 150px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
